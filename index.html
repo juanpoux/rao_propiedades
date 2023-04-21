@@ -17,7 +17,7 @@
 
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-azul">
         <div class="container-fluid justify-content-center">
           <a class="navbar-brand mx-auto" href="#">RAO Propiedades</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,40 +95,59 @@
         <section id="sectionContacto" class="mt-5">
         <div class="container">
           
-            <div class="row justify-content-center align-items-center g-2">
-                <div class="col "><h1>Contacto</h1></div>
-                <div class="col">Column</div>
-                <div class="col">Column</div>
+            <div class="text-center">
+                <div class="col"><h1>Contacto</h1></div>
+            </div>
+          
+            <div class="d-flex justify-content-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <form class="mx-auto">
+                      <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                      </div>
+                      <div class="form-group">
+                        <label for="descripcion">Descripción:</label>
+                        <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
            
         </div>
            
         </section>
 </body> 
-
-
-<footer class="bg-danger text-light py-3">
+<footer class="bg-danger text-light py-3 bg-azul">
     <div class="container">
+   
       <div class="row">
-        <div class="col-md-6">
-          <h5>Información de contacto</h5>
-          <ul class="list-unstyled">
-            <li>Dirección: 123 Calle Principal, Ciudad</li>
-            <li>Teléfono: +123 456 7890</li>
-            <li>Correo electrónico: info@ejemplo.com</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <h5>Redes sociales</h5>
-          
-            <a href="#"><i class="fab fa-facebook"></i> </a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-         
+        <div class="col-md-12 text-center">
+          <h5 class="" >Redes sociales</h5>
+            <div class="row d-flex justify-content-center">
+              <div>
+                <a href="#"><i class="fab fa-facebook m-2"></i> </a>
+                <a href="#"><i class="fab fa-twitter m-2"></i></a>
+                <a href="#"><i class="fab fa-instagram m-2"></i></a>
+              </div>
+              
+            </div>   
         </div>
       </div>
+
       <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center ">
           <p>&copy; 2023 Ejemplo.com Todos los derechos reservados</p>
         </div>
       </div>

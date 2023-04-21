@@ -11,6 +11,14 @@
 }
 
 
+
+.bg-azul{
+  background-color: #3085FF !important;
+}
+
+
+
+
 .whatsapp-btn {
   position: fixed;
   bottom: 20px;
@@ -34,4 +42,5 @@
 
 }
 /* cards */
+
 
